@@ -11,16 +11,16 @@ Load the discover-plugins skill and search for plugins, extensions, or skills th
 If $ARGUMENTS contains `--update-skill`:
 
 1. Determine install location by checking which exists:
-   - Local: `.opencode/skill/discover-plugins/`
-   - Global: `~/.config/opencode/skill/discover-plugins/`
+   - Local: `.opencode/skills/discover-plugins/`
+   - Global: `~/.config/opencode/skills/discover-plugins/`
 
 2. Run the appropriate install command:
    ```bash
    # For local installation
-   curl -fsSL https://raw.githubusercontent.com/msmps/discover-plugins-skill/main/install.sh | bash
+   curl -fsSL https://raw.githubusercontent.com/itsrainingmani/OSFTA/main/install.sh | bash
 
    # For global installation
-   curl -fsSL https://raw.githubusercontent.com/msmps/discover-plugins-skill/main/install.sh | bash -s -- --global
+   curl -fsSL https://raw.githubusercontent.com/itsrainingmani/OSFTA/main/install.sh | bash -s -- --global
    ```
 
 3. Output success message and stop (do not continue to other steps).
